@@ -1,0 +1,16 @@
+{
+  "name": "ayush_weather_app",
+  "version": "1.0.0",
+  "description": "this is a weather app based on api by AYUSH",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ayush Dhiman",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "node-fetch": "^3.1.0",
+    "pug": "^3.0.2"
+  }
+}

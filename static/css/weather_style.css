@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  text-align: center;
+  margin: 0;
+}
+
+.main-container {
+  box-shadow: 5px 5px black;
+  align-items: center;
+  border-radius: 10px;
+  min-width: 250px;
+  padding: 5px;
+  max-width: 500px;
+  background:linear-gradient(#4c4c9e7a,#9dc8cbc2,#b83fb5b3,#9957e1 );
+  width: 50%;
+  height: 500px;
+  margin: 20px auto;
+  overflow: hidden;
+  
+}
+.upperhalf {
+  height: 50%;
+   font-size: large;
+  width: 100%;
+  }
+
+#city {
+  text-transform: capitalize;
+}
+#weather_icon {
+  width: 100%;
+}
+#weather-logo {
+   width: 50%; 
+   max-width: 125px;
+}
+.weather-details {
+  font-size: x-large;
+  padding-top: 20px;
+}
+

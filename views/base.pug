@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather app</title>
+    <script defer src="../static/client_scripts/time.js"></script>
+    <link rel="shortcut icon" href="../static/images/favicon1.png" type="image/x-icon">
+    <link rel="stylesheet" href="../static/css/base_style.css">
+</head>
+<body>
+    <section id="sec1">
+    <nav> 
+        <div class="logo"><img id="lg" src="../static/images/sitelogo.png" alt="site logo"></div>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+            <div class="right">
+                <form action="/" method="post">
+                    <input type="text" name="city" placeholder="Enter City ">
+                    <input id="sub-btn" type="submit" value="Search">
+                </form>
+            </div>
+    </nav>
+
+        <div id="time"></div>
+        <h1> Weather Site</h1>
+        <div class="text"> Please enter city name to find its weather details
+        </div>
+    </section>
+    <section id="sec2">
+<div class="waves">
+<div class="wave" id="wave1"></div>
+<div class="wave" id="wave2"></div>
+<div class="wave" id="wave3"></div>
+<div class="wave" id="wave4"></div>
+</div>
+</section>
+</body>
+</html>

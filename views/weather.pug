@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <script defer src="../static/client_scripts/script1.js"></script>
+    <link rel="stylesheet" href="../static/css/weather_style.css">
+    <script defer src="../static/client_scripts/time.js"></script>
+    <link rel="shortcut icon" href="../static/images/favicon1.png" type="image/x-icon">
+    <link rel="stylesheet" href="../static/css/base_style.css">
+
+</head>
+
+<body>
+    <nav>
+        <div class="logo"><img id="lg" src="../static/images/sitelogo.png" alt="site logo"></div>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+        <div class="right">
+            <form action="/" method="post">
+                <input type="text" name="city" placeholder="Enter City ">
+                <input id="sub-btn" type="submit" value="Search">
+            </form>
+        </div>
+    </nav>
+            <div id="time"></div>
+    <div class="main-container">
+        <div class="upperhalf">
+            <div id="weather_icon"></div>
+            <div id="description"></div>
+        </div>
+        <div class="weather-details" id="edit">
+            <div class="city-container">Location : <span id="city">#{city}</span></div>
+            <div class="temp">Temperature : <span id="ctemp"></span></div>
+            <div class="temp">Min-temp : <span id="mntp"></span></div>
+            <div class="temp">Max-temp : <span id="mxtp"></span></div>
+        </div>
+
+    </div>
+</body>
+
+</html>
